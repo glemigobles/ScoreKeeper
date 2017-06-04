@@ -29,14 +29,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="25dp"
                 android:gravity="center"
-                android:text="Team:"
+                android:text="@string/team"
                 android:background="@color/colorAccentOpacity"/>
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:gravity="center"
-                android:hint="team name"
+                android:hint="@string/team_name"
                 android:textSize="25sp"
                 android:background="@color/colorAccentOpacity"
                 />
@@ -72,7 +72,7 @@
                 android:layout_height="40dp"
                 android:layout_marginBottom="10dp"
                 android:onClick="addRedA"
-                android:text="Add red card" />
+                android:text="@string/add_red_card" />
 
             <TextView
                 android:id="@+id/yellows_A"
@@ -88,7 +88,7 @@
                 android:layout_height="40dp"
                 android:layout_marginBottom="10dp"
                 android:onClick="addYellowA"
-                android:text="Add yellow card" />
+                android:text="@string/add_yellow_card" />
 
 
         </LinearLayout>
@@ -105,14 +105,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="25dp"
                 android:gravity="center"
-                android:text="Team:"
+                android:text="@string/team"
                 android:background="@color/colorAccentOpacity"/>
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:gravity="center"
-                android:hint="team name"
+                android:hint="@string/team_name"
                 android:textSize="25sp"
                 android:background="@color/colorAccentOpacity"
                 />
@@ -148,7 +148,7 @@
                 android:layout_height="40dp"
                 android:layout_marginBottom="10dp"
                 android:onClick="addRedB"
-                android:text="Add red card" />
+                android:text="@string/add_red_card" />
 
             <TextView
                 android:id="@+id/yellows_B"
@@ -164,7 +164,7 @@
                 android:layout_height="40dp"
                 android:layout_marginBottom="10dp"
                 android:onClick="addYellowB"
-                android:text="Add yellow card" />
+                android:text="@string/add_yellow_card" />
 
 
         </LinearLayout>
@@ -178,7 +178,7 @@
         android:layout_gravity="center"
         android:layout_margin="10dp"
         android:onClick="reset"
-        android:text="RESET"
-        android:textSize="25dp" />
+        android:text="@string/reset"
+        android:textSize="25sp" />
 </LinearLayout>
 

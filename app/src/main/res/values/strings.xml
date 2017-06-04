@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Soccer Score Keeper</string>
     <string name="goal">GOAL!</string>
+    <string name="team">Team:</string>
+    <string name="team_name">team name</string>
+    <string name="add_red_card">Add red card</string>
+    <string name="add_yellow_card">Add yellow card</string>
+    <string name="reset">RESET</string>
 </resources>
