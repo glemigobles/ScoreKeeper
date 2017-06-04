@@ -5,9 +5,9 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/pattern"
     android:orientation="vertical"
     tools:context="com.kubaczeremosz.scorekeeper.MainActivity"
-    android:background="@drawable/pattern"
     tools:layout_editor_absoluteX="8dp"
     tools:layout_editor_absoluteY="8dp">
 
@@ -28,27 +28,26 @@
                 android:id="@+id/team_A"
                 android:layout_width="match_parent"
                 android:layout_height="25dp"
+                android:background="@color/colorAccentOpacity"
                 android:gravity="center"
-                android:text="@string/team"
-                android:background="@color/colorAccentOpacity"/>
+                android:text="@string/team" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:background="@color/colorAccentOpacity"
                 android:gravity="center"
                 android:hint="@string/team_name"
-                android:textSize="25sp"
-                android:background="@color/colorAccentOpacity"
-                />
+                android:textSize="25sp" />
 
             <TextView
                 android:id="@+id/pts_A"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
+                android:background="@color/colorAccentOpacity"
                 android:gravity="center"
                 android:text="0"
-                android:textSize="70sp"
-                android:background="@color/colorAccentOpacity" />
+                android:textSize="70sp" />
 
             <Button
                 android:id="@+id/team_A_goal"
@@ -62,10 +61,11 @@
                 android:id="@+id/reds_A"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
+                android:background="@color/colorAccentOpacity"
                 android:gravity="center"
                 android:text="0"
-                android:textSize="30sp"
-                android:background="@color/colorAccentOpacity"/>
+                android:textSize="30sp" />
+
             <Button
                 android:id="@+id/team_A_red"
                 android:layout_width="match_parent"
@@ -78,10 +78,11 @@
                 android:id="@+id/yellows_A"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
+                android:background="@color/colorAccentOpacity"
                 android:gravity="center"
                 android:text="0"
-                android:textSize="30sp"
-                android:background="@color/colorAccentOpacity"/>
+                android:textSize="30sp" />
+
             <Button
                 android:id="@+id/team_A_yellow"
                 android:layout_width="match_parent"
@@ -104,27 +105,26 @@
                 android:id="@+id/team_B"
                 android:layout_width="match_parent"
                 android:layout_height="25dp"
+                android:background="@color/colorAccentOpacity"
                 android:gravity="center"
-                android:text="@string/team"
-                android:background="@color/colorAccentOpacity"/>
+                android:text="@string/team" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:background="@color/colorAccentOpacity"
                 android:gravity="center"
                 android:hint="@string/team_name"
-                android:textSize="25sp"
-                android:background="@color/colorAccentOpacity"
-                />
+                android:textSize="25sp" />
 
             <TextView
                 android:id="@+id/pts_B"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
+                android:background="@color/colorAccentOpacity"
                 android:gravity="center"
                 android:text="0"
-                android:textSize="70sp"
-                android:background="@color/colorAccentOpacity"/>
+                android:textSize="70sp" />
 
             <Button
                 android:id="@+id/team_B_goal"
@@ -138,10 +138,11 @@
                 android:id="@+id/reds_B"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
+                android:background="@color/colorAccentOpacity"
                 android:gravity="center"
                 android:text="0"
-                android:textSize="30sp"
-                android:background="@color/colorAccentOpacity"/>
+                android:textSize="30sp" />
+
             <Button
                 android:id="@+id/team_B_red"
                 android:layout_width="match_parent"
@@ -154,10 +155,11 @@
                 android:id="@+id/yellows_B"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
+                android:background="@color/colorAccentOpacity"
                 android:gravity="center"
                 android:text="0"
-                android:textSize="30sp"
-                android:background="@color/colorAccentOpacity"/>
+                android:textSize="30sp" />
+
             <Button
                 android:id="@+id/team_B_yellow"
                 android:layout_width="match_parent"
